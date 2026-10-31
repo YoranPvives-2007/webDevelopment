@@ -1,0 +1,7 @@
+a {
+    background-image: url("../images/Trollface.png");
+    background-repeat: no-repeat;
+    background-size: 25px 18px;
+    background-position: left center;
+    padding-left: 30px;
+}
