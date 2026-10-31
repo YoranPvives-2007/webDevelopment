@@ -3,10 +3,17 @@ ul {
 }
 
 li::before {
-    content: "☐";
-    margin-right: 0.5em
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    background-image: url("../images/unchecked.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 0.5em;
 }
 
 li.checked::before {
-    content: "☑";
+    background-image: url("../images/checked.png");
 }
