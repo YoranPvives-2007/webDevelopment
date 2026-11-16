@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+header {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav {
+    background-color: #00496B;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 12px;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+section {
+    background-color: white;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: #006699;
+    border-bottom: 2px solid #006699;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: #00496B;
+}
+
+.profielfoto {
+    width: 220px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+}
+
+article {
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #dddddd;
+}
+
+article img {
+    width: 250px;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.gegevens {
+    list-style-type: square;
+}
+
+.gegevens li {
+    margin-bottom: 8px;
+}
+
+a {
+    color: #006699;
+}
+
+a:hover {
+    color: #00496B;
+}
+
+footer {
+    background-color: #006699;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: left;
+    width: 100%;
+    font: normal 12px/150% Arial, Helvetica, sans-serif;
+    background: #fff;
+    border: 1px solid #006699;
+    border-radius: 3px;
+}
+
+table td,
+table th {
+    padding: 3px 10px;
+}
+
+table thead th {
+    background: linear-gradient(to bottom, #006699 5%, #00557F 100%);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-left: 1px solid #0070A8;
+}
+
+table thead th:first-child {
+    border: none;
+}
+
+table tbody td {
+    color: #00496B;
+    border-left: 1px solid #E1EEF4;
+    font-size: 12px;
+}
+
+table tbody td:first-child {
+    border-left: none;
+}
+
+.alt td {
+    background: #E1EEF4;
+}
+
+.onbekend {
+    background-color: red;
+    color: white;
+}
+
+tr.alt td.onbekend {
+    background-color: red;
+    color: white;
+}
